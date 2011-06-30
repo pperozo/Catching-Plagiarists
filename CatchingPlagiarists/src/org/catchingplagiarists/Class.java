@@ -75,7 +75,7 @@ public class Class {
 				}
 			}
 		}
-			NewHash counter = new NewHash(files, "someDirPath");
+			NewHash counter = new NewHash(files, "somePath");
 			counter.countHits();
 			return counter.toStringTops();
 		

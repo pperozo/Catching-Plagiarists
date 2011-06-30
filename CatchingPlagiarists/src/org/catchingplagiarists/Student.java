@@ -62,7 +62,7 @@ public class Student {
 			compare.print();
 			
 		}
-	//needs to be fixed doesn't do as intended
+	//needs to be fixed
 	public String toString(){
 		String allAssignments = "";
 		for(Assignment a: this.getAssignments()){
